@@ -6,7 +6,26 @@ namespace procedural
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            getUserInput();
         }
+
+        static void getUserInput()
+        {
+            while(true)
+            {
+                ResolveCripto("'12k'12j1jcj1jjs'");
+            }
+        }
+
+        static void ResolveCripto (string key) 
+        {
+            Console.WriteLine(key);
+        }
+
+        static void ScrambleText() 
+        {
+            
+        }
+        
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\GabrielFerreira\Documents\repos\procedural\bin\Debug\netcoreapp3.1\procedural.exe
+C:\Users\GabrielFerreira\Documents\repos\procedural\bin\Debug\netcoreapp3.1\procedural.deps.json
+C:\Users\GabrielFerreira\Documents\repos\procedural\bin\Debug\netcoreapp3.1\procedural.runtimeconfig.json
+C:\Users\GabrielFerreira\Documents\repos\procedural\bin\Debug\netcoreapp3.1\procedural.runtimeconfig.dev.json
+C:\Users\GabrielFerreira\Documents\repos\procedural\bin\Debug\netcoreapp3.1\procedural.dll
+C:\Users\GabrielFerreira\Documents\repos\procedural\bin\Debug\netcoreapp3.1\procedural.pdb
+C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.csprojAssemblyReference.cache
+C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.csproj.CoreCompileInputs.cache
+C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.AssemblyInfoInputs.cache
+C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.AssemblyInfo.cs
+C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.dll
+C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.pdb
+C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.genruntimeconfig.cache
