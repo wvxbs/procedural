@@ -1,3 +1,106 @@
-{
-    name : "hot13"
-}
+[
+    {
+        "character" : "A",
+        "index" : 1
+    },
+    {
+        "character" : "B",
+        "index" : 2
+    },
+    {
+        "character" : "C",
+        "index" : 3
+    },
+    {
+        "character" : "D",
+        "index" : 4
+    },
+    {
+        "character" : "E",
+        "index" : 5
+    },
+    {
+        "character" : "F",
+        "index" : 6
+    },
+    {
+        "character" : "G",
+        "index" : 7
+    },
+    {
+        "character" : "H",
+        "index" : 8
+    },
+    {
+        "character" : "I",
+        "index" : 9
+    },
+    {
+        "character" : "J",
+        "index" : 10
+    },
+    {
+        "character" : "K",
+        "index" : 11
+    },
+    {
+        "character" : "L",
+        "index" : 12
+    },
+    {
+        "character" : "M",
+        "index" : 13
+    },
+    {
+        "character" : "N",
+        "index" : 14
+    },
+    {
+        "character" : "O",
+        "index" : 15
+    },
+    {
+        "character" : "P",
+        "index" : 16
+    },
+    {
+        "character" : "Q",
+        "index" : 17
+    },
+    {
+        "character" : "R",
+        "index" : 18
+    },
+    {
+        "character" : "S",
+        "index" : 19
+    },
+    {
+        "character" : "T",
+        "index" : 20
+    },
+    {
+        "character" : "U",
+        "index" : 21
+    },
+    {
+        "character" : "V",
+        "index" : 22
+    },
+    {
+        "character" : "W",
+        "index" : 23
+    },
+    {
+        "character" : "X",
+        "index" : 24
+    },
+    {
+        "character" : "Y",
+        "index" : 25
+    },
+    {
+        "character" : "Z",
+        "index" : 26
+    },
+]
