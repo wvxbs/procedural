@@ -12,7 +12,7 @@ namespace procedural
         {
             getUserInput();
         }
-
+        
         static void getUserInput()
         {
             int select = 0;
@@ -29,38 +29,52 @@ namespace procedural
 
         static void processUserInput(int select)
         {
-            int i = 0;
-
-            while(i == 0)
+            switch(select)
             {
-                if(select == 1)
-                {
+                case 1:
                     Ex1();
-                }
-                else
-                if(select == 2)
-                {
+                break;
+                case 2:
                     Ex2();
-                }
-                else
-                if(select == 0)
-                {
-                    i++;
-                }
-                else
-                {
-                    Error("tipo de enrada inválido");
-                }
+                break;
+                case 0:
+                break;
+                default:
+                    Error("Insira um tipo válido");
+                break;
             }
         }
         static void Ex1 ()
         {
             int select = 0;
+            int i = 0;
 
             Console.WriteLine("1 para criptografar texto\n2 para descriptografar texto\n0 para sair");
             if(int.TryParse(Console.ReadLine(), out select))
             {
-                        
+                
+            }
+            else
+            {
+                Error("Insira um tipo válido");
+            }
+        }
+
+        static void Ex1Actions (int select)
+        {
+            switch(select)
+            {
+                case 1:
+                    Ex1();
+                break;
+                case 2:
+                    Ex2();
+                break;
+                case 0:
+                break;
+                default:
+                    Error("Insira um tipo válido");
+                break;
             }
         }
 
@@ -69,28 +83,32 @@ namespace procedural
 
         }
 
+        static void Ex2Actions (int select)
+        {
+            switch(select)
+            {
+                case 1:
+                    Ex1();
+                break;
+                case 2:
+                    Ex2();
+                break;
+                case 0:
+                break;
+                default:
+                    Error("Insira um tipo válido");
+                break;
+            }
+        }
+
         static void ProcessRot13()
         {
             
         }
-        
-        static void LoadJSON() 
-        {
-            var weatherForecast = JsonSerializer.DeserializeAsync(OpenFile("index.json"));
-        }   
 
-        static FileStream OpenFile(string path)
-        {   
-            using (FileStream fs = File.OpenRead(""))
-            {
-                return fs;
-            }
-        }
-
-        public class Obj
+        static void ProcessVigenere(string key)
         {
-            string character;
-            int index;
+            
         }
 
         static void Error(string error)
