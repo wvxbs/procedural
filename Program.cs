@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using Newstonsoft.json;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace procedural
 {
@@ -28,7 +29,7 @@ namespace procedural
 
         static void processUserInput(int select)
         {
-            int i;
+            int i = 0;
 
             while(i == 0)
             {
@@ -52,7 +53,6 @@ namespace procedural
                 }
             }
         }
-
         static void Ex1 ()
         {
             int select = 0;
@@ -73,24 +73,23 @@ namespace procedural
         {
             
         }
+        
+        static void LoadJSON() 
+        {
+            var weatherForecast = JsonSerializer.DeserializeAsync(OpenFile("index.json"));
+        }   
 
-        static void loadJson()
-            RootObject ro = new RootObject();
-                try
-                {
-
-                    StreamReader sr = new StreamReader(FileLoc);
-                    string jsonString = sr.ReadToEnd();
-                    JavaScriptSerializer ser = new JavaScriptSerializer();
-                    ro = ser.Deserialize<RootObject>(jsonString);
-
-
+        static FileStream OpenFile(string path)
+        {   
+            using (FileStream fs = File.OpenRead(""))
+            {
+                return fs;
             }
         }
 
-        public class RootObject 
+        public class Obj
         {
-            string characte;
+            string character;
             int index;
         }
 
