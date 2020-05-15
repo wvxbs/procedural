@@ -22,7 +22,7 @@ namespace procedural
         static void getUserInput()
         {
             int select = 0;
-            Print("1 para operações com rot13\n2 para operações com cifra");
+            Print("1 para operações com Rot13\n2 para operações com Vigenére");
             if(int.TryParse(Console.ReadLine(), out select))
             {
                 processUserInput(select);
@@ -56,7 +56,6 @@ namespace procedural
         static void Ex1 ()
         {
             int select = 0;
-            int i = 0;
 
             Print("1 para criptografar texto\n2 para descriptografar texto\n0 para sair");
             if(int.TryParse(Console.ReadLine(), out select))
@@ -97,9 +96,12 @@ namespace procedural
 
         static void ProcessRot13(string code)
         {
+
+            List<char> l = new List<char>();
+
             foreach (char c in code.ToCharArray())
             {
-                if (c == 32) Print(c.ToString()); 
+                if (c == 32) l.Add(c); 
                 else
                 {
                     int i = c + 13;
@@ -107,11 +109,25 @@ namespace procedural
                     {
                         i = (i - 90) + 64;
                     }
-                    char i2 = (char)i;
-                    Print(i2.ToString());
+                    char temp = Convert.ToChar(i);
+                    l.Add(temp);
                 }
 
             }
+
+            Print("Resultado:\n");
+
+            printRot13(l);
+        }
+
+        static void printRot13(List<char> l)
+        {
+            for(int i = 0; i < l.Count; i++)
+            {
+                Console.Write(l[i].ToString());
+            }
+
+            Print("");
         }
 
         //
