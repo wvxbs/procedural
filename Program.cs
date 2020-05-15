@@ -8,6 +8,9 @@ namespace procedural
 {
     class Program
     {
+
+        static string DefaultTypeError = "Insira um tipo válido";
+
         static void Main(string[] args)
         {
             getUserInput();
@@ -23,7 +26,7 @@ namespace procedural
             }
             else
             {
-                Error("tipo de entrada errado");
+                Error(DefaultTypeError);
             }
         }
 
@@ -40,7 +43,7 @@ namespace procedural
                 case 0:
                 break;
                 default:
-                    Error("Insira um tipo válido");
+                    Error(DefaultTypeError);
                 break;
             }
         }
@@ -56,7 +59,7 @@ namespace procedural
             }
             else
             {
-                Error("Insira um tipo válido");
+                Error(DefaultTypeError);
             }
         }
 
@@ -73,7 +76,7 @@ namespace procedural
                 case 0:
                 break;
                 default:
-                    Error("Insira um tipo válido");
+                    Error(DefaultTypeError);
                 break;
             }
         }
@@ -96,14 +99,14 @@ namespace procedural
                 case 0:
                 break;
                 default:
-                    Error("Insira um tipo válido");
+                    Error(DefaultTypeError);
                 break;
             }
         }
 
         static void ProcessRot13()
         {
-            
+                
         }
 
         static void ProcessVigenere(string key)
