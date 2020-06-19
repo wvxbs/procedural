@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NkSE5jmgpTHdxWns1hAcwmzi23/POW/exlIIuNxoefkLhP0bsV/lRn20j1vL/MAByS71e1arFwSXlgB+yR/ufw==",
+  "dgSpecHash": "xWePSmlbGlDcms3Lr+Z63yVwHtM4VOZacZD5Tuo2vuHLu1TL3JrpyRPqI8/pxRsRRIcyUH+a7viJXHUR819y5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\GabrielFerreira\\documents\\repos\\procedural\\procedural.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\GabrielFerreira\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",
+    "C:\\Users\\GabrielFerreira\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
