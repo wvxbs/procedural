@@ -1,8 +1,11 @@
-﻿https://github.com/wvxbs/procedural.gitusing System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using CommandLine;
+
+using procedural.src;
 
 namespace procedural
 {
@@ -12,11 +15,44 @@ namespace procedural
         static string DefaultTypeError = "Insira um tipo válido";
         static string IndexOutOfBounds = "Selecione uma ação valida";
 
+        public class Options
+        {
+            [Option('c', "criptografia", Required = true, HelpText = "Selecionar criptografia")]
+            public bool criptografia { get; set; }
+
+            [Option('t', "texto", Required = true, HelpText = "Inserir texto")]
+            public bool texto { get; set; }
+
+            [Option('k', "chave", Required = false, HelpText = "Inserir chave")]
+            public bool chave { get; set; }
+
+            [Option('a', "acao", Required = true, HelpText = "Criptografar e descriptografar")]
+            public bool acao { get; set; }
+
+        }
+
         static void Main(string[] args)
         {
-            while(true) {
-                getUserInput();
-            }
+            Parser.Default.ParseArguments<Options>(args)
+                   .WithParsed<Options>(o =>
+                   {
+                    if(o.criptografia)
+                    {
+                        Ex1 e1 = new Ex1();
+                    }
+                    if(o.texto)
+                    {
+
+                    }
+                    if(o.chave)
+                    {
+
+                    }
+                    if(o.acao)
+                    {
+
+                    }
+                   });
         }
         
         static void getUserInput()
@@ -135,22 +171,6 @@ namespace procedural
         static void Ex2 ()
         {
 
-        }
-
-        static void Ex2Actions (int select)
-        {
-            switch(select)
-            {
-                case 1:
-                    Ex1();
-                break;
-                case 2:
-                    Ex2();
-                break;
-                default:
-                    Error(DefaultTypeError);
-                break;
-            }
         }
 
         static void ProcessVigenere(string key)

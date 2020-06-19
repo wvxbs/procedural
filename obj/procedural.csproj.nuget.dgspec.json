@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GabrielFerreira\\documents\\repos\\procedural\\procedural.csproj": {}
+    "C:\\Users\\GabrielFerreira\\Documents\\repos\\procedural\\procedural.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GabrielFerreira\\documents\\repos\\procedural\\procedural.csproj": {
+    "C:\\Users\\GabrielFerreira\\Documents\\repos\\procedural\\procedural.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GabrielFerreira\\documents\\repos\\procedural\\procedural.csproj",
+        "projectUniqueName": "C:\\Users\\GabrielFerreira\\Documents\\repos\\procedural\\procedural.csproj",
         "projectName": "procedural",
-        "projectPath": "C:\\Users\\GabrielFerreira\\documents\\repos\\procedural\\procedural.csproj",
+        "projectPath": "C:\\Users\\GabrielFerreira\\Documents\\repos\\procedural\\procedural.csproj",
         "packagesPath": "C:\\Users\\GabrielFerreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GabrielFerreira\\documents\\repos\\procedural\\obj\\",
+        "outputPath": "C:\\Users\\GabrielFerreira\\Documents\\repos\\procedural\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GabrielFerreira\\AppData\\Roaming\\NuGet\\NuGet.Config",

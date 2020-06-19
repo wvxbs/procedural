@@ -11,3 +11,5 @@ C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\proc
 C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.dll
 C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.pdb
 C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.genruntimeconfig.cache
+C:\Users\GabrielFerreira\Documents\repos\procedural\bin\Debug\netcoreapp3.1\CommandLine.dll
+C:\Users\GabrielFerreira\Documents\repos\procedural\obj\Debug\netcoreapp3.1\procedural.csproj.CopyComplete
